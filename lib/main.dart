@@ -44,7 +44,7 @@ class _MyHomePageState extends State<MyHomePage> {
                         blurRadius: 5),
                     BoxShadow(
                         //Shadow
-                        offset: Offset(3, 3),
+                        offset: Offset(5, 5),
                         color: Color(0xFF1b1b1b),
                         blurRadius: 5),
                   ]),
@@ -60,7 +60,7 @@ class _MyHomePageState extends State<MyHomePage> {
                 shape: BoxShape.circle,
                 boxShadow: const <BoxShadow>[
                   BoxShadow(
-                      //Shadow
+                      //Upper Shadow
                       offset: Offset(-0, -0),
                       color: Color(0xFF121212),
                       blurRadius: 3,
@@ -91,10 +91,10 @@ class _MyHomePageState extends State<MyHomePage> {
                       blurRadius: 5,
                       spreadRadius: 5),
                   BoxShadow(
-                    //Shadow
-                    offset: Offset(-3, -3),
-                    color: Color(0xFF303030),
-                    blurRadius: 5,
+                    //highlight
+                    offset: Offset(-1, -1),
+                    color: Color(0xFF404040),
+                    blurRadius: 2,
                   ),
                 ],
               ),
